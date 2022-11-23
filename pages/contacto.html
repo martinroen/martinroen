@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,8 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>contactos</title>
 </head>
-<body>
+
+<body class="fondo-contacto">
     <header>
         <h1>TSN</h1>
         <nav>
@@ -20,18 +22,50 @@
             </ul>
             </ul>
         </nav>
-        
+
     </header>
-    <main>
-        <section>
-            
+    <main class="centrar">
+        <section class="d-flex justify-content-center">
+            <div class="card col-sm-6 p-3">
+                <div class="mb-3">
+                    <h4>contacto</h4>
+                </div>
+                <div class="mb-2">
+                    <form action="">
+                        <div class="mb-2">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" class="form-control" name="nombre" id="nolmbre" placeholder="ej: Martin">
+                        </div>
+                        <div class="mb-2">
+                            <label for="apellido">apellido</label>
+                            <input type="text" class="form-control" name="apellido" id="apellido"
+                                placeholder="ej: Martin">
+                        </div>
+                        <div class="mb-2">
+                            <label for="correo">correo</label>
+                            <input type="text" class="form-control" name="correo" id="correo" placeholder="ej: Martin">
+                        </div>
+                        <div class="mb-2">
+                            <label for="mensaje">mensaje</label>
+                            <textarea name="mensaje" id="mensaje" class"form-control" placeholder="ej:hola" ></textarea>
+                        </div>
+                        <div class="mb-2"> 
+                        <button class="btn btn-primary">enviar</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
         </section>
 
     </main>
     <footer>
-        <a href="https://www.instagram.com/?hl=es"><img src="../img/instagram.png" alt="logo instagram" target="_blank"></a>
+        <a href="https://www.instagram.com/?hl=es"><img src="../img/instagram.png" alt="logo instagram"
+                target="_blank"></a>
         <a href="https://twitter.com/i/flow/login"><img src="../img/twitter.png" alt="logo twitter"></a>
         <a href="https://www.facebook.com/"><img src="../img/facebook.png" alt="logo facebook"></a>
     </footer>
 </body>
+
 </html>
