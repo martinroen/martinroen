@@ -123,6 +123,7 @@ header nav ul li a:hover {
 
 
 
+
 /*-------footer----*/
 footer {
     height: 200;
@@ -245,7 +246,7 @@ button:hover {
 
 .formulario{
  max-width: 130em;
-    padding: 10em;
+    padding:10px;
     background-color: rgba(120, 119, 123, 0.3);
     font-weight: bold;
     border-radius: 0.5em;
@@ -278,6 +279,10 @@ flex-direction: column;
     }
     .mq{
         width: 100%;
+    }
+    .texto2{
+        font-size:30px;
+    
     }
 
 }
