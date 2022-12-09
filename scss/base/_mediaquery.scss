@@ -1,0 +1,88 @@
+/**media query**/
+@media screen and (max-width:1000px){
+    .producto{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:900px){
+    .text{
+        font-size:10px;
+    }
+}
+@media screen and (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width:600px){
+    header nav ul{
+flex-direction: column;
+    }
+    .mq{
+        width: 100%;
+    }
+    .texto2{
+        font-size:30px;
+    
+    }
+
+}
+/**media query somos**/
+@media screen and (max-width:1400px){
+    .paragraph {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .paragraph {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:600px){
+    .paragraph {
+        font-size: 15px;
+    }
+}
+/******************************ppff**************************/
+@media screen and (max-width:950px){
+    .preguntas{
+        font-size: 15px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width:620px){
+    .preguntas {
+        font-size: 13px;
+        line-height: 40px;
+    }
+}
+/*******************tienda************************************/
+@media screen and (max-width:460px){
+    .contenedor__imagenes{
+width: 90%;
+    }
+}
+@media screen and (max-width:410px){
+    .contenedor__imagenes{
+width: 80%;
+padding: 0%;
+margin: 0%;
+    }
+}
+@media screen and (max-width:370px){
+    .contenedor__imagenes{
+width: 70%;
+padding: 0%;
+margin: 0%;
+    }
+}
+@media screen and (max-width:400px){
+    footer img {
+        width: 80px;
+        height: 80px;
+        margin: 10px;
+    }
+}
