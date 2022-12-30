@@ -10,8 +10,10 @@ main {
         background-attachment: fixed;
         text-transform: uppercase;
         color: aliceblue;
+        padding: 10px;
     }
-}
+
+
 
 .producto {   
     justify-content: space-between;
@@ -55,6 +57,7 @@ main {
         }
     }
 }
+}
 /*somos*/
 .backround{
     background-color: #292929;
@@ -62,7 +65,7 @@ main {
 .somos {
     text-align:center;
     color: white;
-    padding: 120px;
+    padding: 15px;
     font-size: 40px;}
 }
 /*ppff*/
@@ -80,6 +83,9 @@ main {
         text-align: center;
         padding: 10px;
         line-height: 90px;
+        h2{
+            color: rgb(0, 153, 255);
+        }
     }
     }
 /*tienda**/
@@ -129,3 +135,4 @@ main {
     background-size: cover;
 
 }
+
